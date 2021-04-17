@@ -1,0 +1,89 @@
+body{
+    background-color :tomato;
+    color            :white;
+    font-size        :20px;
+    font-family      : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin           :0 px;
+    padding          : 0px;
+}
+/*************************************************************************************************/
+.one{
+    margin-top:-30px;
+    margin-left:-20px;
+    height:100vh;
+    width:75%;
+    background-color: black;
+    clip-path: circle(50% at 18% 46%);
+}
+.one > section {
+    background-color:tomato;
+    height:100vh;
+    width:60%;
+    clip-path: circle(50% at 18% 46%);
+}
+.one > section > section{
+    background-color:black;
+    height:100vh;
+    width:60%;
+    clip-path: circle(50% at 18% 46%);
+    display : grid;
+    place-items: center;
+}
+.one > section > section > section {
+    margin-left:-120px;
+    background-color:tomato;
+    height:60vh;
+    width:60%;
+    clip-path: circle(50% at 18% 46%);
+}
+.one > section > section > section > section {
+    /* margin-left:;*/
+    background-color:white;
+    height:100px;
+    width:100px;
+    clip-path: circle(50% at 18% 46%);
+}
+/*****************************************/
+.two{
+    background-color:black;
+    width:105%;
+    height:100vh;
+    margin:-25px;
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+
+}
+/*********************************************/
+.three {
+    position: relative;
+    top:-180px;
+    background-color:black;
+    height:400vh;
+    clip-path: ellipse(50% 50% at 14% 47%);
+    margin-left:-20px;
+}
+/*********************************************/
+.four{
+    background-color:black;
+    height:50px;
+    width:105%;
+    position: relative;
+    top:-280px;
+    margin-left:-20px;
+}
+/*********************************************/
+.five{
+    background-color:black;
+    width:105%;
+    height:400px;
+    margin-bottom:-20px;
+    margin-left:-20px;
+    display : grid;
+    place-items: center;
+}
+.five > section> h1{
+    font-size:2rem;
+}
+.five > section> p > strong , .five > section>h3 {
+    color:yellow;
+}
+/**************************************************************************************************/
